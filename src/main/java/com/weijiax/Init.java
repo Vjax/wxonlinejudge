@@ -28,11 +28,13 @@ public class Init implements ServletContextListener {
 
         for(ProducerThread producerThread : producerThreads){
             producerThread = new ProducerThread(queue);
+            producerThread.setName("Producer");
             producerThread.setDaemon(true);
             producerThread.start();
         }
         for (ConsumerThread consumerThread : consumerThreads){
             consumerThread = new ConsumerThread(queue);
+            consumerThread.setName("Consumer");
             consumerThread.setDaemon(true);
             consumerThread.start();
         }

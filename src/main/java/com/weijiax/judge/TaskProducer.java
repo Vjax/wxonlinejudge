@@ -32,7 +32,7 @@ public class TaskProducer {
 
     static{
         FILE_NAME = new HashMap<>();
-        FILE_NAME.put("c","main.c");
+        FILE_NAME.put("cpp","main.cpp");
         FILE_NAME.put("java","main.java");
     }
 
@@ -43,7 +43,7 @@ public class TaskProducer {
      */
     public void produce(){
         try {
-            if (connection.isClosed() || connection ==null){
+            if (connection.isClosed() || connection == null){
                 connection = DatabaseHelper.getConnection();
             }
             Statement selectStatement = connection.createStatement();
@@ -68,7 +68,7 @@ public class TaskProducer {
                 LOGGER.info("produce take "+(endTime-startTime)+" millseconds");
             }
         }catch (Exception e){
-            LOGGER.error("profuce task failure",e);
+            LOGGER.error("produce task failure",e);
         }
     }
 
@@ -149,7 +149,7 @@ public class TaskProducer {
      */
     public void writeCodeIntoFile(String code, File solutionFile,int problem_id,String language){
         FileWriter writer = null;
-        String mainMethodFilePath = ConfigHelper.getMainMethodDir()+"/"+problem_id+"/"+"main."+language;
+        String mainMethodFilePath = ConfigHelper.getMainMethodDir()+"/"+problem_id+"/"+FILE_NAME.get(language);
         InputStream mainMethodFileStream = null;
         try {
             //打开主函数文件读取文件流并转化为字符串

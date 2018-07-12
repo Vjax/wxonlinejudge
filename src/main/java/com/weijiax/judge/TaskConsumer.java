@@ -336,6 +336,5 @@ public class TaskConsumer {
             LOGGER.error("update result failure");
             e.printStackTrace();
         }
-
     }
 }

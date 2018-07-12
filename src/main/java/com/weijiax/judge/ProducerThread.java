@@ -13,7 +13,7 @@ public class ProducerThread extends Thread{
         while (true){
             producer.produce();
             try {
-                Thread.sleep(150);
+                Thread.sleep(500);
             }catch (Exception e){
                 e.printStackTrace();
             }
