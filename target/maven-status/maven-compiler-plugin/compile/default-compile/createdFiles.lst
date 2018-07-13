@@ -11,7 +11,10 @@ com\weijiax\dao\TeacherDao.class
 com\weijiax\dao\StudentDao.class
 com\weijiax\entity\ProblemDetail.class
 com\weijiax\entity\Message.class
+com\weijiax\servlet\ShowStudentsGradeServlet.class
 com\weijiax\servlet\Test.class
+com\weijiax\servlet\DeleteFromShoppingCart.class
+com\weijiax\entity\StudentGrade.class
 com\weijiax\servlet\LoginServlet.class
 com\weijiax\servlet\ProblemDetailServlet.class
 com\weijiax\dao\UserInfoDao.class
@@ -27,10 +30,13 @@ com\weijiax\entity\StudentHomework.class
 com\weijiax\entity\Problem.class
 com\weijiax\servlet\DeleteTeacherServlet.class
 com\weijiax\entity\Problems.class
+com\weijiax\entity\Province.class
 com\weijiax\servlet\ShowTeachersServlet.class
 com\weijiax\servlet\ProblemListServlet.class
+com\weijiax\servlet\AddToShoppingCartServlet.class
 com\weijiax\timer\ScheduleTask.class
 com\weijiax\servlet\ShowShoppingCartServlet.class
+com\weijiax\servlet\GetProvinceServlet.class
 com\weijiax\entity\StudentInfo.class
 com\weijiax\judge\ConsumerThread.class
 com\weijiax\util\CastUtil.class
@@ -41,9 +47,12 @@ com\weijiax\util\StringUtil.class
 com\weijiax\servlet\SubmitCode.class
 com\weijiax\dao\DataAnalysisDao.class
 com\weijiax\dao\SignUpDao.class
+com\weijiax\dao\UniversityDao.class
 com\weijiax\ConfigConstant.class
+com\weijiax\Test.class
 com\weijiax\servlet\DataAnalysisServlet.class
 com\weijiax\entity\DataAnalysis.class
+com\weijiax\entity\University.class
 com\weijiax\servlet\AssignHomeworkServlet.class
 com\weijiax\util\MD5Util.class
 com\weijiax\entity\Student.class
@@ -56,4 +65,7 @@ com\weijiax\servlet\GetProblemServlet.class
 com\weijiax\helper\ConfigHelper.class
 com\weijiax\ConfigConstant$RESULT.class
 com\weijiax\util\PropUtil.class
+com\weijiax\dao\ProvinceDao.class
 com\weijiax\servlet\ExerciseListServlet.class
+com\weijiax\servlet\ShowStudentTeachersServlet.class
+com\weijiax\servlet\GetUniversityListServlet.class

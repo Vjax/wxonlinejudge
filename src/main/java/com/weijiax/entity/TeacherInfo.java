@@ -6,9 +6,12 @@ public class TeacherInfo {
 
     private String teacher_number;
 
-    public TeacherInfo(String teacher_name,String teacher_number){
+    private String university;
+
+    public TeacherInfo(String teacher_name,String teacher_number,String university){
         this.teacher_name = teacher_name;
         this.teacher_number = teacher_number;
+        this.university = university;
     }
 
 
@@ -26,5 +29,13 @@ public class TeacherInfo {
 
     public void setTeacher_number(String teacher_number) {
         this.teacher_number = teacher_number;
+    }
+
+    public String getUniversity() {
+        return university;
+    }
+
+    public void setUniversity(String university) {
+        this.university = university;
     }
 }

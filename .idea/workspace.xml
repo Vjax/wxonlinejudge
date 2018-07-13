@@ -2,75 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e6b21a-e4cd-42b4-92db-8d2d08a6268b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProvinceDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UniversityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/Province.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/University.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/ConfigConstant$RESULT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/ConfigConstant$ROLE.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/ConfigConstant$STATUS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/ConfigConstant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/Init.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/dao/UserInfoDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/DataAnalysis.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Homework.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Problem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/ProblemDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Problems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/StudentGrade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/StudentHomework.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/StudentInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/Teacher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/entity/TeacherInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/helper/ConfigHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/helper/DatabaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/ConsumerThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/ProducerThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/Task.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/TaskConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/TaskProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/judge/TaskQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/AddToShoppingCartServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/AssignHomeworkServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/DataAnalysisServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/DeleteFromShoppingCart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/DeleteStudentServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/DeleteTeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ExerciseListServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/GetArtialServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/GetProblemServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/HomeworkListServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ProblemDetailServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ProblemListServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/SelectTeacherServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ShowShoppingCartServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ShowStudentTeachersServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ShowStudentsGradeServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ShowStudentsServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/ShowTeachersServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/SignupServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/StudentHomeworkServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/SubmitCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/servlet/UserInfoServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/timer/ScheduleTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/CastUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/JsonUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/MD5Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/PropUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/StreamUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/util/StringUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weijiax/dao/SignUpDao.class" afterPath="$PROJECT_DIR$/target/classes/com/weijiax/dao/SignUpDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test.war" afterPath="$PROJECT_DIR$/target/test.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/Init.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/Init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/dao/SignUpDao.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/dao/SignUpDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/dao/UserInfoDao.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/dao/UserInfoDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/entity/StudentInfo.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/entity/StudentInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/entity/TeacherInfo.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/entity/TeacherInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/ProducerThread.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/ProducerThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/TaskConsumer.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/TaskConsumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/TaskProducer.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/judge/TaskProducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/servlet/SignupServlet.class" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/com/weijiax/servlet/SignupServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/Init.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/Init.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/ProducerThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/ProducerThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskProducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SignupServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SignupServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,135 +34,131 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ProvinceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProvinceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <marker date="1531404015340" expanded="true" signature="449:495" ph="select provi... province" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetUniversityListServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataAnalysisServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DataAnalysisServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetProvinceServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="University.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/University.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UniversityDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/UniversityDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <marker date="1531410399076" expanded="true" signature="481:554" ph="select unive... university" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeworkListServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/HomeworkListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProblemDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProblemDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
-                <marker date="1531229975433" expanded="true" signature="389:472" ph="select title... problem" />
-                <marker date="1531229975433" expanded="true" signature="1295:1340" ph="select title... problem" />
-                <marker date="1531229975433" expanded="true" signature="1854:1943" ph="select descr... problem" />
-                <marker date="1531229975433" expanded="true" signature="2977:3034" ph="select missi... problem" />
-                <marker date="1531229975433" expanded="true" signature="3988:4096" ph="select code task" />
-                <marker date="1531229975433" expanded="true" signature="4825:4890" ph="select missi... problem" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ShoppingCartDao.java">
+      <file leaf-file-name="TaskConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <marker date="1531235020030" expanded="true" signature="2667:2780" ph="update task " />
+                <marker date="1531235020030" expanded="true" signature="8049:8165" ph="update task " />
+                <marker date="1531235020030" expanded="true" signature="12303:12426" ph="update task " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding>
+                <marker date="1531468718847" expanded="true" signature="316:365" ph="insert into user... " />
+                <marker date="1531468718847" expanded="true" signature="835:932" ph="insert into student... " />
+                <marker date="1531468718847" expanded="true" signature="1600:1697" ph="insert into teacher... " />
+                <marker date="1531468718847" expanded="true" signature="2251:2301" ph="select pass_... missingValue" />
+                <marker date="1531468718847" expanded="true" signature="2845:2914" ph="select missi... missingValue" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignupServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SignupServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <marker date="1531229975440" expanded="true" signature="430:488" ph="select teach... student_teacher" />
+                <marker date="1531229975440" expanded="true" signature="1079:1137" ph="select teach... student_teacher" />
+                <marker date="1531229975440" expanded="true" signature="1786:1825" ph="insert into student_teacher... " />
+                <marker date="1531229975440" expanded="true" signature="2296:2363" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+              <folding>
+                <marker date="1531468719010" expanded="true" signature="672:750" ph="select teach... teacher" />
+                <marker date="1531468719010" expanded="true" signature="1478:1556" ph="select stude... student" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/UserInfoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <marker date="1531229975436" expanded="true" signature="544:609" ph="delete from " />
-                <marker date="1531229975436" expanded="true" signature="1168:1205" ph="insert into shopping_cart... " />
-                <marker date="1531229975436" expanded="true" signature="2462:2518" ph="select probl... shopping_cart" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/ShowShoppingCartServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DeleteFromShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/Teacher.java" />
@@ -258,9 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SelectTeacherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/UserInfoServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/ShowStudentTeachersServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/helper/DatabaseHelper.java" />
@@ -278,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DeleteStudentServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/DataAnalysisDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/GradeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/TeacherDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/ShowStudentsGradeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/ProblemDetailServlet.java" />
@@ -293,14 +235,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/Init.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/judge/ProducerThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/Province.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProvinceDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/University.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UniversityDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SignupServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java" />
       </list>
     </option>
   </component>
@@ -326,7 +273,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -350,7 +297,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,6 +382,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -598,15 +545,17 @@
       <workItem from="1528616349594" duration="4164000" />
       <workItem from="1528634120265" duration="2312000" />
       <workItem from="1529590745717" duration="4061000" />
-      <workItem from="1531403175357" duration="2598000" />
+      <workItem from="1531403175357" duration="3307000" />
+      <workItem from="1531449100993" duration="5903000" />
+      <workItem from="1531494806029" duration="2119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235832000" />
+    <option name="totallyTimeSpent" value="244563000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,7 +571,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29023606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23497854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,42 +611,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DeleteTeacherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DeleteFromShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/AssignHomeworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/DeleteStudentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/TeacherDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
@@ -735,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,13 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="27" column="42" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProblemServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -816,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-195">
           <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,23 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1531229975482" expanded="false" signature="325:336" ph=" { " />
-            <marker date="1531229975482" expanded="false" signature="356:362" ph=" }" />
-            <marker date="1531229975482" expanded="false" signature="416:427" ph=" { " />
-            <marker date="1531229975482" expanded="false" signature="460:466" ph=" }" />
-            <marker date="1531229975482" expanded="false" signature="505:516" ph=" { " />
-            <marker date="1531229975482" expanded="false" signature="538:544" ph=" }" />
-            <marker date="1531229975482" expanded="false" signature="602:613" ph=" { " />
-            <marker date="1531229975482" expanded="false" signature="650:656" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/Init.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
@@ -915,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,31 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2511">
           <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8586">
-          <caret line="337" column="9" lean-forward="false" selection-start-line="337" selection-start-column="9" selection-end-line="337" selection-end-column="9" />
-          <folding>
-            <marker date="1531235020030" expanded="true" signature="2667:2780" ph="update task " />
-            <marker date="1531235020030" expanded="true" signature="8049:8165" ph="update task " />
-            <marker date="1531235020030" expanded="true" signature="12303:12426" ph="update task " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="151" column="111" lean-forward="false" selection-start-line="151" selection-start-column="111" selection-end-line="151" selection-end-column="111" />
-          <folding>
-            <marker date="1531237390715" expanded="true" signature="595:635" ph="select * fro... task" />
-            <marker date="1531237390715" expanded="true" signature="728:776" ph="update task " />
-            <marker date="1531237390715" expanded="true" signature="2979:3092" ph="update task " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,15 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,36 +831,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1531229975438" expanded="true" signature="316:365" ph="insert into user... " />
-            <marker date="1531229975438" expanded="true" signature="817:901" ph="insert into student... " />
-            <marker date="1531229975438" expanded="true" signature="1504:1588" ph="insert into teacher... " />
-            <marker date="1531229975438" expanded="true" signature="2095:2145" ph="select pass_... missingValue" />
-            <marker date="1531229975438" expanded="true" signature="2689:2758" ph="select missi... missingValue" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProblemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="2943">
           <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
           <folding>
             <marker date="1531229975433" expanded="true" signature="389:472" ph="select title... problem" />
@@ -1031,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ShoppingCartDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="1512">
           <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
             <marker date="1531229975436" expanded="true" signature="544:609" ph="delete from " />
@@ -1044,23 +864,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/University.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/UniversityDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="675">
           <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1073,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/ProvinceDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
+        <state relative-caret-position="675">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1103,28 +923,148 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/HomeworkListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="46" />
+          <caret line="33" column="46" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="3544">
+          <caret line="151" column="111" lean-forward="false" selection-start-line="151" selection-start-column="111" selection-end-line="151" selection-end-column="111" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1531237390715" expanded="true" signature="595:635" ph="select * fro... task" />
+            <marker date="1531237390715" expanded="true" signature="728:776" ph="update task " />
+            <marker date="1531237390715" expanded="true" signature="2979:3092" ph="update task " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProblemServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetProvinceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/GetUniversityListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/judge/TaskConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <marker date="1531235020030" expanded="true" signature="2667:2780" ph="update task " />
+            <marker date="1531235020030" expanded="true" signature="8049:8165" ph="update task " />
+            <marker date="1531235020030" expanded="true" signature="12303:12426" ph="update task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/SignUpDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <marker date="1531468718847" expanded="true" signature="316:365" ph="insert into user... " />
+            <marker date="1531468718847" expanded="true" signature="835:932" ph="insert into student... " />
+            <marker date="1531468718847" expanded="true" signature="1600:1697" ph="insert into teacher... " />
+            <marker date="1531468718847" expanded="true" signature="2251:2301" ph="select pass_... missingValue" />
+            <marker date="1531468718847" expanded="true" signature="2845:2914" ph="select missi... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/SignupServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1531229975440" expanded="true" signature="430:488" ph="select teach... student_teacher" />
+            <marker date="1531229975440" expanded="true" signature="1079:1137" ph="select teach... student_teacher" />
+            <marker date="1531229975440" expanded="true" signature="1786:1825" ph="insert into student_teacher... " />
+            <marker date="1531229975440" expanded="true" signature="2296:2363" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/StudentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <marker date="1531468719010" expanded="true" signature="672:750" ph="select teach... teacher" />
+            <marker date="1531468719010" expanded="true" signature="1478:1556" ph="select stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/entity/TeacherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weijiax/servlet/UserInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

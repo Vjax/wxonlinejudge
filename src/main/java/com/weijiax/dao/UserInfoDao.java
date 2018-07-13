@@ -26,7 +26,7 @@ public class UserInfoDao {
     }
 
     private String getTeacherInfo(int id){
-        String sql = "select teacher_name,teacher_number from teacher where teacher_id = "+id;
+        String sql = "select teacher_name,teacher_number,university from teacher where teacher_id = "+id;
         Statement statement = null;
         TeacherInfo info = null;
         try {
@@ -35,7 +35,8 @@ public class UserInfoDao {
             if (set.next()){
                 String teacher_name = set.getString("teacher_name");
                 String teacher_number = set.getString("teacher_number");
-                info = new TeacherInfo(teacher_name,teacher_number);
+                String university = set.getString("university");
+                info = new TeacherInfo(teacher_name,teacher_number,university);
             }
         }catch (SQLException e){
             e.printStackTrace();
@@ -44,7 +45,7 @@ public class UserInfoDao {
     }
 
     private String getStudentInfo(int id){
-        String sql = "select student_name,student_number from student where student_id = "+id;
+        String sql = "select student_name,student_number,university from student where student_id = "+id;
         Statement statement = null;
         StudentInfo info = null;
         try {
@@ -53,7 +54,8 @@ public class UserInfoDao {
             if (set.next()){
                 String student_name = set.getString("student_name");
                 String student_number = set.getString("student_number");
-                info = new StudentInfo(student_name,student_number);
+                String university = set.getString("university");
+                info = new StudentInfo(student_name,student_number,university);
             }
         }catch (SQLException e){
             e.printStackTrace();

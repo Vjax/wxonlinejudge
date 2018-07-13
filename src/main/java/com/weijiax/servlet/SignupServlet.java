@@ -38,6 +38,7 @@ public class SignupServlet extends HttpServlet {
         String real_name = req.getParameter("real_name");
         String id = req.getParameter("id");
         String password = signUpDao.getPassword(nick_name,role);
+        String university = req.getParameter("university");
         if (password != null){
             /**
              * 用户已经存在
@@ -50,10 +51,10 @@ public class SignupServlet extends HttpServlet {
                     signUpDao.signUpUser(nick_name,password);
                     break;
                 case "student":
-                    signUpDao.signUpStudent(real_name,nick_name,password,id);
+                    signUpDao.signUpStudent(real_name,nick_name,password,id,university);
                     break;
                 case "teacher":
-                    signUpDao.signUpTeacher(real_name,nick_name,password,id);
+                    signUpDao.signUpTeacher(real_name,nick_name,password,id,university);
                     break;
             }
             /**
@@ -63,6 +64,4 @@ public class SignupServlet extends HttpServlet {
         }
         DatabaseHelper.closeConnection(connection);
     }
-
-
 }

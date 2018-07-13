@@ -6,9 +6,12 @@ public class StudentInfo {
 
     private String student_number;
 
-    public StudentInfo(String student_name,String student_number){
+    private String university;
+
+    public StudentInfo(String student_name,String student_number,String university){
         this.student_name = student_name;
         this.student_number = student_number;
+        this.university = university;
     }
 
 
@@ -26,5 +29,13 @@ public class StudentInfo {
 
     public void setStudent_number(String student_number) {
         this.student_number = student_number;
+    }
+
+    public String getUniversity() {
+        return university;
+    }
+
+    public void setUniversity(String university) {
+        this.university = university;
     }
 }

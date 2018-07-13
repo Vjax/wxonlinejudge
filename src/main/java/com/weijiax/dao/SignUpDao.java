@@ -25,8 +25,8 @@ public class SignUpDao {
         }
     }
 
-    public int signUpStudent(String real_name,String nick_name,String password,String student_id){
-        String sql = "insert into student(student_number,student_name,nick_name,pass_word) values(?,?,?,?)";
+    public int signUpStudent(String real_name,String nick_name,String password,String student_id,String university){
+        String sql = "insert into student(student_number,student_name,nick_name,pass_word,university) values(?,?,?,?,?)";
         PreparedStatement statement = null;
         int result = 0;
         try {
@@ -35,6 +35,7 @@ public class SignUpDao {
             statement.setString(2,real_name);
             statement.setString(3,nick_name);
             statement.setString(4,password);
+            statement.setString(5,university);
             result = statement.executeUpdate();
         }catch (SQLException e){
             e.printStackTrace();
@@ -42,8 +43,8 @@ public class SignUpDao {
         return result;
     }
 
-    public void signUpTeacher(String real_name,String nick_name,String password,String teacher_id){
-        String sql = "insert into teacher(teacher_number,teacher_name,nick_name,pass_word) values(?,?,?,?)";
+    public void signUpTeacher(String real_name,String nick_name,String password,String teacher_id,String university){
+        String sql = "insert into teacher(teacher_number,teacher_name,nick_name,pass_word,university) values(?,?,?,?,?)";
         PreparedStatement statement = null;
         try {
             statement = connection.prepareStatement(sql);
@@ -51,6 +52,7 @@ public class SignUpDao {
             statement.setString(2,real_name);
             statement.setString(3,nick_name);
             statement.setString(4,password);
+            statement.setString(5,university);
             statement.executeUpdate();
         }catch (SQLException e){
             e.printStackTrace();
